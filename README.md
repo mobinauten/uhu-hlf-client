@@ -1,4 +1,4 @@
-# UHU hyperledger client
+# UHUCHAIN hyperledger client
 
 First draft of an hyperledger fabric client using the GO SDK.
 
