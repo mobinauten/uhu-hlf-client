@@ -12,13 +12,10 @@ set -e
 
 GO_CMD="${GO_CMD:-go}"
 
-REPO="github.com/hyperledger/fabric-sdk-go"
+REPO="github.com/uhuchain/uhu-hlf-client"
 
 # Packages to exclude
 PKGS=`$GO_CMD list $REPO... 2> /dev/null | \
-      grep -v ^$REPO/api/ | \
-      grep -v ^$REPO/pkg/fabric-ca-client/mocks | grep -v ^$REPO/pkg/fabric-client/mocks | \
-      grep -v ^$REPO/internal/github.com/ | grep -v ^$REPO/third_party/ | \
       grep -v ^$REPO/vendor/ | grep -v ^$REPO/test/`
 echo "Running unit tests..."
 

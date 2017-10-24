@@ -13,12 +13,9 @@ GOLINT_CMD=golint
 GOFMT_CMD=gofmt
 GOIMPORTS_CMD=goimports
 
-PROJECT_PATH=$GOPATH/src/github.com/hyperledger/fabric-sdk-go
+PROJECT_PATH=$GOPATH/src/github.com/uhuchain/uhu-hlf-client
 
 declare -a arr=(
-"./api"
-"./def"
-"./pkg"
 "./test"
 )
 

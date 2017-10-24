@@ -52,7 +52,7 @@ THIRDPARTY_FABRIC_BRANCH    ?= master
 THIRDPARTY_FABRIC_COMMIT    ?= f754f40d3165571cecf5fce43c8a034559983311
 
 # Local variables used by makefile
-PACKAGE_NAME := github.com/hyperledger/fabric-sdk-go
+PACKAGE_NAME := github.com/uhuchain/uhu-hlf-client
 ARCH         := $(shell uname -m)
 
 # The version of dep that will be installed by depend-install (or in the CI)
